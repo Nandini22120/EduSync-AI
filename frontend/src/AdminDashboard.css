@@ -1,0 +1,100 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.admin-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-section-header h2 {
+  font-size: 22px;
+  color: #171b35;
+}
+
+.admin-btn {
+  background: #5145c9;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.admin-btn:hover {
+  background: #3f33b5;
+}
+
+.admin-btn.secondary {
+  background: #e5e2ff;
+  color: #5145c9;
+}
+
+.admin-btn.secondary:hover {
+  background: #d6d1fa;
+}
+
+.admin-btn.danger {
+  background: #dc3545;
+  color: white;
+}
+
+.admin-btn.danger:hover {
+  background: #c82333;
+}
+
+.filter-pills {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.filter-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: #eeeef5;
+  color: #55586d;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.filter-pill.active {
+  background: #5145c9;
+  color: white;
+}
+
+.progress-bar-container {
+  background: #e9ecef;
+  border-radius: 10px;
+  height: 8px;
+  width: 100%;
+  max-width: 120px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #28a745;
+  border-radius: 10px;
+}
+
+.progress-bar-fill.warning {
+  background: #ffc107;
+}
+
+.progress-bar-fill.danger {
+  background: #dc3545;
+}
+
